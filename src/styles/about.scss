@@ -12,10 +12,12 @@
     font-weight: 500;
     line-height: 180%;
     color: $textColorArticle;
+
     @include media(tablet) {
       grid-template-columns: 1fr 1fr;
       grid-template-rows: auto-fit, 1fr;
     }
+
     @include media(desktop, desktopHd) {
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: 1fr;
@@ -26,6 +28,7 @@
 
   &__title {
     line-height: 90%;
+
     @include media(tablet) {
       grid-column: 1 / span 2;
       grid-row: 1;
