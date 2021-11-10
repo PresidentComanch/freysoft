@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/freysoft/static/css/main.6ad55539.chunk.css",
-    "main.js": "/freysoft/static/js/main.e8d89822.chunk.js",
-    "main.js.map": "/freysoft/static/js/main.e8d89822.chunk.js.map",
+    "main.css": "/freysoft/static/css/main.45d7bf2d.chunk.css",
+    "main.js": "/freysoft/static/js/main.50a01b56.chunk.js",
+    "main.js.map": "/freysoft/static/js/main.50a01b56.chunk.js.map",
     "runtime-main.js": "/freysoft/static/js/runtime-main.c807e163.js",
     "runtime-main.js.map": "/freysoft/static/js/runtime-main.c807e163.js.map",
     "static/js/2.3725b1f3.chunk.js": "/freysoft/static/js/2.3725b1f3.chunk.js",
     "static/js/2.3725b1f3.chunk.js.map": "/freysoft/static/js/2.3725b1f3.chunk.js.map",
     "index.html": "/freysoft/index.html",
-    "static/css/main.6ad55539.chunk.css.map": "/freysoft/static/css/main.6ad55539.chunk.css.map",
+    "static/css/main.45d7bf2d.chunk.css.map": "/freysoft/static/css/main.45d7bf2d.chunk.css.map",
     "static/js/2.3725b1f3.chunk.js.LICENSE.txt": "/freysoft/static/js/2.3725b1f3.chunk.js.LICENSE.txt",
     "static/media/header.scss": "/freysoft/static/media/fdd3c66a6b85d20f382558819842a606.9a350834.png",
     "static/media/Contact.c0749e26.svg": "/freysoft/static/media/Contact.c0749e26.svg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.c807e163.js",
     "static/js/2.3725b1f3.chunk.js",
-    "static/css/main.6ad55539.chunk.css",
-    "static/js/main.e8d89822.chunk.js"
+    "static/css/main.45d7bf2d.chunk.css",
+    "static/js/main.50a01b56.chunk.js"
   ]
 }
