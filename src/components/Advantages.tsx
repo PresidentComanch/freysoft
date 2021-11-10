@@ -3,7 +3,7 @@ import classNames from 'classnames';
 
 import perks from '../api/perks.json';
 
-import '../styles/advantages.scss';
+import '../styles/addvantages.scss';
 
 import YoungMotTeam from '../images/icons/y_mot_team.svg';
 import IntClients from '../images/icons/int_clients.svg';
@@ -17,7 +17,7 @@ type Perk = {
   description: string;
 }
 
-const Advantages: React.FC = () => {
+const Addvantages: React.FC = () => {
   const perkImages = [
     YoungMotTeam,
     IntClients,
@@ -34,14 +34,14 @@ const Advantages: React.FC = () => {
   };
 
   return (
-    <section className="advantages">
+    <section className="addvantages">
       <div className="container">
-        <h2 className="advantages__title">
+        <h2 className="addvantages__title">
           Our superb perks
         </h2>
       </div>
-      <div className="advantages__wrapper">
-        <ul className="advantages__list" style={{ transform: `translateX(-${translateValue * 290}px)` }}>
+      <div className="addvantages__wrapper">
+        <ul className="addvantages__list" style={{ transform: `translateX(-${translateValue * 290}px)` }}>
           {perks.map((
             perk: Perk,
             perkIndex: number,
@@ -49,12 +49,14 @@ const Advantages: React.FC = () => {
             const { title, description } = perk;
 
             return (
-              <li className="advantages__item" key={title}>
-                <img src={perkImages[perkIndex]} className="advantages__img" alt={title} />
-                <h3 className="advantages__perk-title">
-                  {title}
-                </h3>
-                <p className="advantages__perk-description">
+              <li className="addvantages__item" key={title}>
+                <img src={perkImages[perkIndex]} className="addvantages__img" alt={title} />
+                <div className="addvantages__perk-title-container">
+                  <h3 className="addvantages__perk-title">
+                    {title}
+                  </h3>
+                </div>
+                <p className="addvantages__perk-description">
                   {description}
                 </p>
               </li>
@@ -64,13 +66,13 @@ const Advantages: React.FC = () => {
       </div>
       <div className="container">
         <div
-          className="advantages__controll-bar"
+          className="addvantages__controll-bar"
         >
           {buttons.map((button) => (
             <label
               className={classNames(
-                'advantages__control-radio-label',
-                { 'advantages__control-radio-label--active': translateValue === button },
+                'addvantages__control-radio-label',
+                { 'addvantages__control-radio-label--active': translateValue === button },
               )}
               htmlFor={`radio${button}`}
               key={button}
@@ -78,7 +80,7 @@ const Advantages: React.FC = () => {
               <input
                 id={`radio${button}`}
                 type="radio"
-                className="advantages__control-radio"
+                className="addvantages__control-radio"
                 name="transform-translate-radio"
                 value={button}
                 onChange={translateHandler}
@@ -91,4 +93,4 @@ const Advantages: React.FC = () => {
   );
 };
 
-export default Advantages;
+export default Addvantages;

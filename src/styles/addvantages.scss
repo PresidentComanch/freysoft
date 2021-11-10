@@ -1,7 +1,7 @@
 @import './mixins';
 @import './vars';
 
-.advantages {
+.addvantages {
   padding: 80px 0 48px;
   background: #FCF7F8;
 
@@ -87,6 +87,7 @@
   }
 
   &__img {
+    margin: 0 0 50px;
     width: 112px;
     height: 123px;
   }
@@ -100,6 +101,12 @@
     letter-spacing: -1px;
     color: #202523;
   }
+  &__perk-title-container {
+    @include media(desktop, desktopHd) {
+      height: 105px;
+    }
+  }
+
 
   &__perk-description {
     font-weight: 500;

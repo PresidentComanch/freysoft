@@ -1,6 +1,6 @@
 import React from 'react';
 import About from './About';
-import Advantages from './Advantages';
+import Addvantages from './Advantages';
 
 import '../styles/main.scss';
 
@@ -8,7 +8,7 @@ function Main() {
   return (
     <main className="main">
       <About />
-      <Advantages />
+      <Addvantages />
     </main>
   );
 }
