@@ -1,0 +1,31 @@
+@import './mixins';
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(19, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 6px;
+
+  @include media(tablet) {
+    gap: 10px;
+  }
+
+  @include media(desktop, desktopHd) {
+    gap: 20px;
+  }
+
+  &__item {
+    @for $rowStart from 1 through 3 {
+      @for $rowEnd from $rowStart through 3 {
+        @for $colStart from 1 through 19 {
+          @for $colEnd from $colStart through 19 {
+            &--row#{$rowStart}-#{$rowEnd}-col#{$colStart}-#{$colEnd} {
+              grid-column: #{$colStart} / #{$colEnd + 1};
+              grid-row: #{$rowStart} / #{$rowEnd + 1};
+            }
+          }
+        } 
+      }
+    }
+  }
+}

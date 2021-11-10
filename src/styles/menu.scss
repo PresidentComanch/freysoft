@@ -1,0 +1,97 @@
+@import './_mixins.scss';
+@import './_vars.scss';
+
+.menu {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    z-index: 10;
+  }
+
+  &__call-button-desktop {
+    display: none;
+
+    @include media(desktop,desktopHd) {
+      display: block;
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+  
+      width: 156px;
+      height: 48px;
+  
+      background-color: transparent;
+      border: 2px solid #18E8A4;
+      border-radius: 383px;
+  
+      font-family: 'Helvetica Now Display', 'Helvetica Neue', sans-serif;
+      font-weight: 700;
+      color: #fff;
+    }
+  }
+
+  &__bar {
+    position: fixed;
+    z-index: 2;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 120px 20px;
+    list-style: none;
+    background-color: $bgColorDark;
+    line-height: 24px;
+    transform: translateY(-100%);
+    transition: all 0.3s ease-in-out;
+
+    &--open{
+      transform: translateY(0);
+    }
+
+    @include media(tablet) {
+      font-size: 32px;
+      gap: 40px;
+    }
+
+    @include media (desktop, desktopHd) {
+      position: relative;
+      flex-direction: row;
+      gap: 36px;
+      align-items: center;
+      transform: translateY(0);
+      padding: 0;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #fff;
+  }
+  &__career {
+    color: #18E8A4;
+    font-weight: 950;
+  }
+
+  &__contact-block {
+    z-index: 10;
+
+    @include media(desktop, desktopHd) {
+      display: none;
+    }
+  }
+
+  &__menu-button {
+    background-color: transparent;
+    border: none;
+  }
+}
