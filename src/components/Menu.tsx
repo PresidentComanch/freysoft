@@ -14,7 +14,6 @@ function Menu() {
       <div className="menu__logo logo">
         <a
           href="https://presidentcomanch.github.io/freysoft/"
-          onClick={() => setShowMenu(!showMenu)}
         >
           <img src={Logo} alt="Freysoft logo" />
         </a>
