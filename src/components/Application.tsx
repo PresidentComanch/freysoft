@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import '../styles/application.scss';
 
+import Attach from '../images/icons/attach.png';
+
 const Application: React.FC = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -51,17 +53,25 @@ const Application: React.FC = () => {
               value={textMessage}
               onChange={(event) => setTextMessage(event.target.value)}
             />
-            <label htmlFor="cv-file">
-              <input
-                type="file"
-                name="cv-file"
-                className="application-form__cv-attachment-input"
-                id="cv-file"
-                placeholder=""
-              />
-              <img src="" alt="" />
-              Upload CV
-            </label>
+            <div className="application-form__attachment-block">
+              <label htmlFor="cv-file">
+                <input
+                  type="file"
+                  name="cv-file"
+                  className="application-form__cv-attachment-input"
+                  id="cv-file"
+                  placeholder=""
+                />
+                <span className="application-form__attach-icon">
+                  <img
+                    src={Attach}
+                    className="application-form__attach-symbol"
+                    alt="attach file"
+                  />
+                </span>
+                Upload CV
+              </label>
+            </div>
             <span>max file size 1MB; allowed extensions: doc, txt, pdf, docx</span>
             <button
               type="button"

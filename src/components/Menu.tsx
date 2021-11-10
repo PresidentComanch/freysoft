@@ -56,16 +56,21 @@ function Menu() {
           </a>
         </li>
       </ul>
-      <button
-        type="button"
-        className="menu__call-button-desktop"
+      <a
+        href="tel:+123456789"
+        className="menu__call-link"
       >
-        Contact Us
-      </button>
+        <button
+          type="button"
+          className="menu__call-button-desktop"
+        >
+          Contact Us
+        </button>
+      </a>
       <div className="menu__contact-block">
         <a
           href="tel:+123456789"
-          className="menu__call-button-mobile"
+          className="menu__call-link"
         >
           <img src={Contact} alt="call" />
         </a>
