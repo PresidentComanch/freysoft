@@ -5,7 +5,7 @@ import '../styles/grid.scss';
 
 function Header() {
   return (
-    <header className="header">
+    <header className="header" id="#main">
       <div className="container">
         <Menu />
       </div>

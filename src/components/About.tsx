@@ -8,7 +8,7 @@ function About() {
         <article
           className="about__article"
         >
-          <h2 className="main__section-title about__title">
+          <h2 className="main__section-title about__title" id="#company">
             About the company
           </h2>
           <p className="about__paragraph">

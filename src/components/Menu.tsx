@@ -13,7 +13,8 @@ function Menu() {
     <nav className="header__menu menu">
       <div className="menu__logo logo">
         <a
-          href="/"
+          href="https://presidentcomanch.github.io/freysoft/"
+          onClick={() => setShowMenu(!showMenu)}
         >
           <img src={Logo} alt="Freysoft logo" />
         </a>
