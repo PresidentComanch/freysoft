@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/freysoft/static/css/main.6ad55539.chunk.css",
+    "main.js": "/freysoft/static/js/main.e8d89822.chunk.js",
+    "main.js.map": "/freysoft/static/js/main.e8d89822.chunk.js.map",
+    "runtime-main.js": "/freysoft/static/js/runtime-main.c807e163.js",
+    "runtime-main.js.map": "/freysoft/static/js/runtime-main.c807e163.js.map",
+    "static/js/2.3725b1f3.chunk.js": "/freysoft/static/js/2.3725b1f3.chunk.js",
+    "static/js/2.3725b1f3.chunk.js.map": "/freysoft/static/js/2.3725b1f3.chunk.js.map",
+    "index.html": "/freysoft/index.html",
+    "static/css/main.6ad55539.chunk.css.map": "/freysoft/static/css/main.6ad55539.chunk.css.map",
+    "static/js/2.3725b1f3.chunk.js.LICENSE.txt": "/freysoft/static/js/2.3725b1f3.chunk.js.LICENSE.txt",
+    "static/media/header.scss": "/freysoft/static/media/fdd3c66a6b85d20f382558819842a606.9a350834.png",
+    "static/media/Contact.c0749e26.svg": "/freysoft/static/media/Contact.c0749e26.svg",
+    "static/media/index.scss": "/freysoft/static/media/Monotype  - Helvetica Now Display.86da79b3.eot",
+    "static/media/application.scss": "/freysoft/static/media/application_bg.f12b4077.jpg",
+    "static/media/facebook_ic.86d6f495.svg": "/freysoft/static/media/facebook_ic.86d6f495.svg",
+    "static/media/fav_work_proc.b9719d2e.svg": "/freysoft/static/media/fav_work_proc.b9719d2e.svg",
+    "static/media/freysoft_fullcolor_logo.a29403d6.svg": "/freysoft/static/media/freysoft_fullcolor_logo.a29403d6.svg",
+    "static/media/int_clients.9646f013.svg": "/freysoft/static/media/int_clients.9646f013.svg",
+    "static/media/linkedin_ic.142f83af.svg": "/freysoft/static/media/linkedin_ic.142f83af.svg",
+    "static/media/menu_icon.0da5fcfa.svg": "/freysoft/static/media/menu_icon.0da5fcfa.svg",
+    "static/media/not_all_ab_work.e82d3f79.svg": "/freysoft/static/media/not_all_ab_work.e82d3f79.svg",
+    "static/media/stim_proj.b1e9b095.svg": "/freysoft/static/media/stim_proj.b1e9b095.svg",
+    "static/media/twitter_ic.2acb509c.svg": "/freysoft/static/media/twitter_ic.2acb509c.svg",
+    "static/media/work_remote.b5988dd6.svg": "/freysoft/static/media/work_remote.b5988dd6.svg",
+    "static/media/y_mot_team.c7f959c3.svg": "/freysoft/static/media/y_mot_team.c7f959c3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c807e163.js",
+    "static/js/2.3725b1f3.chunk.js",
+    "static/css/main.6ad55539.chunk.css",
+    "static/js/main.e8d89822.chunk.js"
+  ]
+}
