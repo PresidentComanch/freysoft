@@ -20,22 +20,38 @@ function Menu() {
       </div>
       <ul className={classNames('menu__bar', { 'menu__bar--open': (showMenu) })}>
         <li className="menu__item">
-          <a href="#company" className="menu__link">
+          <a
+            href="#company"
+            className="menu__link"
+            onClick={() => setShowMenu(!showMenu)}
+          >
             Company
           </a>
         </li>
         <li className="menu__item">
-          <a href="#services" className="menu__link">
+          <a
+            href="#services"
+            className="menu__link"
+            onClick={() => setShowMenu(!showMenu)}
+          >
             Services
           </a>
         </li>
         <li className="menu__item">
-          <a href="#blog" className="menu__link">
+          <a
+            href="#blog"
+            className="menu__link"
+            onClick={() => setShowMenu(!showMenu)}
+          >
             Blog
           </a>
         </li>
         <li className="menu__item">
-          <a href="#career" className="menu__link">
+          <a
+            href="#career"
+            className="menu__link"
+            onClick={() => setShowMenu(!showMenu)}
+          >
             <span className="menu__career">Career</span>
           </a>
         </li>
