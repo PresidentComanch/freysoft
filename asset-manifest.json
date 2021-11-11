@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/freysoft/static/css/main.3a9f0e19.chunk.css",
-    "main.js": "/freysoft/static/js/main.00d6863a.chunk.js",
-    "main.js.map": "/freysoft/static/js/main.00d6863a.chunk.js.map",
+    "main.js": "/freysoft/static/js/main.f8faa89f.chunk.js",
+    "main.js.map": "/freysoft/static/js/main.f8faa89f.chunk.js.map",
     "runtime-main.js": "/freysoft/static/js/runtime-main.c807e163.js",
     "runtime-main.js.map": "/freysoft/static/js/runtime-main.c807e163.js.map",
     "static/js/2.3de7a4ad.chunk.js": "/freysoft/static/js/2.3de7a4ad.chunk.js",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.c807e163.js",
     "static/js/2.3de7a4ad.chunk.js",
     "static/css/main.3a9f0e19.chunk.css",
-    "static/js/main.00d6863a.chunk.js"
+    "static/js/main.f8faa89f.chunk.js"
   ]
 }
