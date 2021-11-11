@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import classNames from 'classnames';
 
 import Logo from '../images/icons/freysoft_fullcolor_logo.svg';
@@ -9,8 +9,12 @@ import '../styles/menu.scss';
 function Menu() {
   const [showMenu, setShowMenu] = useState<boolean>(false);
 
+  useEffect(() => {}, [showMenu]);
+
   return (
-    <nav className="header__menu menu">
+    <nav
+      className="header__menu menu"
+    >
       <div className="menu__logo logo">
         <a
           href="https://presidentcomanch.github.io/freysoft/"
@@ -18,12 +22,17 @@ function Menu() {
           <img src={Logo} alt="Freysoft logo" />
         </a>
       </div>
-      <ul className={classNames('menu__bar', { 'menu__bar--open': (showMenu) })}>
+      <ul
+        className={classNames('menu__bar', { 'menu__bar--open': (showMenu) })}
+        onClick={() => setShowMenu(!showMenu)}
+        onKeyPress={() => {}}
+        // eslint-disable-next-line jsx-a11y/no-noninteractive-element-to-interactive-role
+        role="button"
+      >
         <li className="menu__item">
           <a
             href="#company"
             className="menu__link"
-            onClick={() => setShowMenu(!showMenu)}
           >
             Company
           </a>
@@ -32,7 +41,6 @@ function Menu() {
           <a
             href="#services"
             className="menu__link"
-            onClick={() => setShowMenu(!showMenu)}
           >
             Services
           </a>
@@ -41,7 +49,6 @@ function Menu() {
           <a
             href="#blog"
             className="menu__link"
-            onClick={() => setShowMenu(!showMenu)}
           >
             Blog
           </a>
@@ -50,7 +57,6 @@ function Menu() {
           <a
             href="#career"
             className="menu__link"
-            onClick={() => setShowMenu(!showMenu)}
           >
             <span className="menu__career">Career</span>
           </a>

@@ -36,6 +36,10 @@
     @include media(tablet, desktop, desktopHd) {
       margin: 0;
     }
+
+    @include media( desktop, desktopHd) {
+      color: #fff;
+    }
   }
 
   &__info-links {
