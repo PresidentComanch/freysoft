@@ -26,12 +26,11 @@ function Menu() {
         className={classNames('menu__bar', { 'menu__bar--open': (showMenu) })}
         onClick={() => setShowMenu(!showMenu)}
         onKeyPress={() => {}}
-        // eslint-disable-next-line jsx-a11y/no-noninteractive-element-to-interactive-role
-        role="button"
+        role="presentation"
       >
         <li className="menu__item">
           <a
-            href="#company"
+            href="#about"
             className="menu__link"
           >
             Company
@@ -39,7 +38,7 @@ function Menu() {
         </li>
         <li className="menu__item">
           <a
-            href="#services"
+            href="#about"
             className="menu__link"
           >
             Services

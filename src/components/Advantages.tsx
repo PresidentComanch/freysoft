@@ -34,7 +34,7 @@ const Addvantages: React.FC = () => {
   };
 
   return (
-    <section className="addvantages">
+    <section className="addvantages" id="career">
       <div className="container">
         <h2 className="addvantages__title">
           Our superb perks

@@ -7,7 +7,7 @@ import '../styles/footer.scss';
 
 function Footer() {
   return (
-    <footer className="footer" id="#blog">
+    <footer className="footer" id="blog">
       <div className="container">
         <div className="footer__content">
           <span className="footer__copyright">
